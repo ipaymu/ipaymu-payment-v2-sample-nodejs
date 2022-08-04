@@ -30,12 +30,12 @@ var signature       = CryptoJS.enc.Hex.stringify(CryptoJS.HmacSHA256(stringtosig
 fetch(
     url,
     {
-    method: "POST",
-    headers: {
-        Accept: 'application/json', 'Content-Type': 'application/json',
-        va: va,
-        signature: signature,
-        timestamp: '20150201121045'
+        method: "POST",
+        headers: {
+            Accept: 'application/json', 'Content-Type': 'application/json',
+            va: va,
+            signature: signature,
+            timestamp: '20150201121045'
     },
         body: JSON.stringify(body)
     }
