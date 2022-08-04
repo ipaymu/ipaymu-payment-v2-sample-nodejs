@@ -36,7 +36,7 @@ fetch(
             va: va,
             signature: signature,
             timestamp: '20150201121045'
-    },
+        },
         body: JSON.stringify(body)
     }
 ).then((response) => response.json())
