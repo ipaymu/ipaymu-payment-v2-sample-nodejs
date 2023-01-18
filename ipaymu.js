@@ -18,7 +18,7 @@ var body            = {
     "cancelUrl":"https://your-website.com/cancel-page", // your cancel page url
     "notifyUrl":"https://your-website.com/callback-url", // your callback url
     "referenceId":"1234", // your reference id or transaction id
-    "buyerName":"Customer Name", // optional
+    "buyerName":"Putu", // optional
     "buyerPhone":"08123456789", // optional
     "buyerEmail":"buyer@mail.com", // optional
 } 
