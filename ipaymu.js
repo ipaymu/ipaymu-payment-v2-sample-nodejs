@@ -1,7 +1,5 @@
 // required cryptojs untuk enkripsi
 // required node-fetch untuk request data
-// var CryptoJS        = require("crypto-js"); // npm install crypto-js
-// var fetch           = require('node-fetch'); // npm install node-fetch --save
 
 import fetch from 'node-fetch'; // npm install crypto-js
 import CryptoJS from 'crypto-js'; // npm install node-fetch --save
@@ -10,7 +8,7 @@ import CryptoJS from 'crypto-js'; // npm install node-fetch --save
 var apikey          = "QbGcoO0Qds9sQFDmY0MWg1Tq.xtuh1";
 var va              = "1179000899";
 var url             = 'https://sandbox.ipaymu.com/api/v2/payment'; // development mode
-// var url             = 'https://my.ipaymu.com/api/v2/payment/direct'; // for production mode
+// var url             = 'https://my.ipaymu.com/api/v2/payment'; // for production mode
 
 var body            = {
     "product":["Jacket"],
