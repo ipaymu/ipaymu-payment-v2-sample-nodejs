@@ -1,7 +1,5 @@
 // required cryptojs untuk enkripsi
 // required node-fetch untuk request data
-// var CryptoJS        = require("crypto-js"); // npm install crypto-js
-// var fetch           = require('node-fetch'); // npm install node-fetch --save
 
 import fetch from 'node-fetch'; // npm install crypto-js
 import CryptoJS from 'crypto-js'; // npm install node-fetch --save
